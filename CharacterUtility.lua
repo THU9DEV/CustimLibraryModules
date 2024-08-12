@@ -4,25 +4,25 @@ local RunService = game:GetService("RunService")
 local CharacterUtility = {}
 CharacterUtility.__index = CharacterUtility
 
--- Constructor to create a new CharacterUtility object
+
 function CharacterUtility.new(player)
     local self = setmetatable({}, CharacterUtility)
     self.player = player or Players.LocalPlayer
     return self
 end
 
--- Retrieve the player's character, waiting for it if not available
+
 function CharacterUtility:GetCharacter()
     return self.player.Character or self.player.CharacterAdded:Wait()
 end
 
--- Retrieve the player's humanoid, if it exists
+
 function CharacterUtility:GetHumanoid()
     local character = self:GetCharacter()
     return character:FindFirstChildOfClass("Humanoid")
 end
 
--- Teleport the player's character to a specific position
+
 function CharacterUtility:TeleportTo(position)
     local character = self:GetCharacter()
     if character and character.PrimaryPart then
@@ -32,7 +32,7 @@ function CharacterUtility:TeleportTo(position)
     end
 end
 
--- Get the current position of the player's character
+
 function CharacterUtility:GetPosition()
     local character = self:GetCharacter()
     if character and character.PrimaryPart then
@@ -42,7 +42,7 @@ function CharacterUtility:GetPosition()
     return nil
 end
 
--- Check if the player's character is alive
+
 function CharacterUtility:IsAlive()
     local humanoid = self:GetHumanoid()
     return humanoid and humanoid.Health > 0
@@ -62,13 +62,13 @@ function CharacterUtility:MonitorHealth(threshold, callback)
     end
 end
 
--- Reset the player's character to the spawn position
+
 function CharacterUtility:ResetCharacter()
     local char = self:GetCharacter()
     char:Breakjoints()
 end
 
--- Continuously move the character towards a target position
+
 function CharacterUtility:MoveTo(targetPosition)
     local humanoid = self:GetHumanoid()
     if humanoid then
@@ -78,7 +78,7 @@ function CharacterUtility:MoveTo(targetPosition)
     end
 end
 
--- Example usage: Adjust the walk speed of the player's character
+
 function CharacterUtility:SetWalkSpeed(speed)
     local humanoid = self:GetHumanoid()
     if humanoid then
@@ -88,7 +88,7 @@ function CharacterUtility:SetWalkSpeed(speed)
     end
 end
 
--- Example usage: Adjust the jump power of the player's character
+
 function CharacterUtility:SetJumpPower(jumpPower)
     local humanoid = self:GetHumanoid()
     if humanoid then
@@ -98,7 +98,7 @@ function CharacterUtility:SetJumpPower(jumpPower)
     end
 end
 
--- Example usage: Auto-jump at intervals
+
 function CharacterUtility:AutoJump(interval)
     local humanoid = self:GetHumanoid()
     if humanoid then

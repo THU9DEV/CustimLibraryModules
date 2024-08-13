@@ -46,7 +46,7 @@ local data = {
 }
 
 webhook:send(data)
-
+```
 
 ## Contact
 

@@ -1,10 +1,10 @@
 # CustomLibraryModules
 
-Welcome to CustimLibraryModules! This collection of libraries and modules is designed to enhance your coding experience by providing tools and utilities that can simplify and improve your development workflow.
+Welcome to CustomLibraryModules! This collection of libraries and modules is designed to enhance your coding experience by providing tools and utilities that can simplify and improve your development workflow.
 
 ## Overview
 
-CustimLibraryModules includes various utilities, libraries, and modules that aim to streamline and enhance coding tasks. While these libraries may not be essential for every project, they are crafted to offer convenience and efficiency for developers who want to improve their codebase.
+CustomLibraryModules includes various utilities, libraries, and modules that aim to streamline and enhance coding tasks. While these libraries may not be essential for every project, they are crafted to offer convenience and efficiency for developers who want to improve their codebase.
 
 ## Features
 
@@ -18,14 +18,14 @@ This library is developed by me and ChatGPT, with contributions and suggestions 
 
 ## Getting Started
 
-To get started with CustimLibraryModules, simply include the desired modules in your project and follow the usage instructions provided in the respective module documentation.
+To get started with CustomLibraryModules, simply include the desired modules in your project and follow the usage instructions provided in the respective module documentation.
 
 ## Contact
 
 If you have any questions or need support, please reach out to [your contact information or community link].
 
-Thank you for using CustimLibraryModules!
+Thank you for using CustomLibraryModules!
 
 ---
 
-*CustimLibraryModules - Making coding easier, one module at a time.*
+*CustomLibraryModules - Making coding easier, one module at a time.*

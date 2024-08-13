@@ -12,9 +12,9 @@ export type Embed = {
 export type Data = {
     url: string,
     content: string | table | number | boolean,
-    embeds: Embed[]?, -- Optional list of embeds
-    Err_Resp: string?, -- Optional error response message
-    Succ_Resp: string? -- Optional success response message
+    embeds: Embed[]?,
+    Err_Resp: string?,
+    Succ_Resp: string?
 }
 
 local Webhook = {}

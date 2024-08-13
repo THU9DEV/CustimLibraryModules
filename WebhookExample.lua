@@ -1,6 +1,4 @@
--- Import the Webhook library
-local Webhook = require(game.ServerScriptService:WaitForChild("Webhook"))
-
+local Webhook = loadstring(game:HttpGet("https://raw.githubusercontent.com/THU9DEV/CustimLibraryModules/main/Webhook.lua"))()
 
 local webhook = Webhook.new()
 

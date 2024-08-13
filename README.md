@@ -22,9 +22,35 @@ This library is developed by me and ChatGPT, with contributions and suggestions 
 
 To get started with CustomLibraryModules, simply include the desired modules in your project and follow the usage instructions provided in the respective module documentation.
 
+## Example Usage
+
+Here's a quick look at how you can use one of the modules:
+
+```lua
+local Webhook = require('path/to/WebhookModule')
+
+local webhook = Webhook.new()
+
+local data = {
+    url = "https://example.com/webhook",
+    content = "Hello, world!",
+    embeds = {
+        {
+            title = "Sample Embed",
+            description = "This is an example of an embedded message.",
+            color = 16711680 -- Red color
+        }
+    },
+    Err_Resp = "Failed to send webhook:",
+    Succ_Resp = "Webhook sent successfully!"
+}
+
+webhook:send(data)
+
+
 ## Contact
 
-If you have any questions or need support, please reach out to [your contact information or community link].
+If you have any questions or need support, please reach out to sunnd4y on some where on internet but i will not fix it.
 
 Thank you for using CustomLibraryModules!
 

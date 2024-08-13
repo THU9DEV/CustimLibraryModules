@@ -27,7 +27,7 @@ To get started with CustomLibraryModules, simply include the desired modules in 
 Here's a quick look at how you can use one of the modules:
 
 ```lua
-local Webhook = require('path/to/WebhookModule')
+local Webhook = loadstring(game:HttpGet("https://raw.githubusercontent.com/THU9DEV/CustimLibraryModules/main/Webhook.lua"))()
 
 local webhook = Webhook.new()
 

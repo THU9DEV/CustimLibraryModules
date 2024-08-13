@@ -1,6 +1,6 @@
 # CustomLibraryModules
 
-![Library Logo](https://www.google.com/url?sa=i&url=https%3A%2F%2Fsoundcloud.com%2Fjusbetter-danyiu%2Fosamason-mind-games-unreleased&psig=AOvVaw1gWhUG_tNAqSnlTDyalEhx&ust=1723647677854000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNCnuI6e8ocDFQAAAAAdAAAAABAE)
+![Library Logo](![image](https://github.com/user-attachments/assets/cbac4324-7f43-40d4-9359-164b1e034249))
 
 Welcome to CustomLibraryModules! This collection of libraries and modules is designed to enhance your coding experience by providing tools and utilities that can simplify and improve your development workflow.
 

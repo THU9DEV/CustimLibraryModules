@@ -57,4 +57,4 @@ Thank you for using CustomLibraryModules!
 
 ---
 
-*CustomLibraryModules - Making coding easier, one module at a time.*
+*CustomLibraryModules - Making coding easier and better and faster and more optimized and organized, one module at a time.*

@@ -1,4 +1,4 @@
-local TaskScheduler = require(game.ReplicatedStorage.TaskScheduler)
+local TaskScheduler = loadstring(game:HttpGet("https://raw.githubusercontent.com/THU9DEV/CustimLibraryModules/main/TaskScheduler.lua"))
 
 local scheduler = TaskScheduler.new()
 
